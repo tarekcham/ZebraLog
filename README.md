@@ -9,7 +9,7 @@ ___
 
     ``` https://github.com/tarekcham/ZebraLog.git```
      
-2. Enter the application folder and 
+2. Enter the application folder and open
 
      ``` index.html```
 
