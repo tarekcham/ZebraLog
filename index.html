@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chat App</title>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+
+    <script defer src="script.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+  </head>
+  <div id="main">
+    <p class="question">
+      how do you think we can support democracy in society ?
+    </p>
+    <form class="question" id="submit-container">
+      <input type="text" id="answer-input" />
+      <button type="submit" id="answer-button">Submit</button>
+    </form>
+    <div id="answer-container"></div>
+  </div>
+  <body></body>
+</html>
